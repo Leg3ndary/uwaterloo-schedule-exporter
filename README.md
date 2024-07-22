@@ -23,4 +23,4 @@ OR just download this and unzip the file to a directory.
 
 3. Go to Class Schedule, select the term, then select Weekly Calendar View and return to List View. Switching back and forth is required to load the document so the extension can recognize this event.
 
-4. Download whichever calendar you want as separate ical files.
+4. Download whichever calendar you want as separate `.ics` files.
