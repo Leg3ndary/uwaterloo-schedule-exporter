@@ -6,6 +6,9 @@ Export your University of Waterloo class schedule directly from [Quest.](https:/
 
 This is a fork of a fork meant to create multiple different calendars for each type of calendar event (e.g. lectures, tutorials, labs, etc) instead of just pulling everything into one calendar.
 
+Original: https://github.com/bhamodi/uwaterloo-schedule-exporter
+Forked version: https://github.com/Xierumeng/uwaterloo-schedule-exporter
+
 ## Usage
 
 1. Clone this repository using:
