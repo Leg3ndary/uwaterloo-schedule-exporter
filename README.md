@@ -2,6 +2,8 @@
 
 ![icon](https://cloud.githubusercontent.com/assets/7663987/9626057/a1ad3ef8-510f-11e5-9f85-4b16138bdffe.png)
 
+![image](https://i.imgur.com/R4tPWAf.png)
+
 Export your University of Waterloo class schedule directly from [Quest.](https://uwaterloo.ca/quest/)
 
 This is a fork of a fork meant to create multiple different calendars for each type of calendar event (e.g. lectures, tutorials, labs, etc) instead of just pulling everything into one calendar.
