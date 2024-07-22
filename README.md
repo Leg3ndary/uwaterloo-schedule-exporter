@@ -17,6 +17,8 @@ Forked version: https://github.com/Xierumeng/uwaterloo-schedule-exporter
 $ git clone https://github.com/Leg3ndary/uwaterloo-schedule-exporter.git
 ```
 
+OR just download this and unzip the file to a directory.
+
 2. Go to `chrome://extensions` in your Chrome browser, make sure `Developer mode` is checked, and click `Load unpacked extension...`. Select the directory where you cloned this repository.
 
 3. Go to Class Schedule, select the term, then select Weekly Calendar View and return to List View. Switching back and forth is required to load the document so the extension can recognize this event.
