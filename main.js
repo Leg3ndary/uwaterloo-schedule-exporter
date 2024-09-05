@@ -146,6 +146,7 @@ let main = function () {
   let iCalContentTut = [];
   let iCalContentLec = [];
   let iCalContentTst = [];
+  let iCalContentSem = [];
   let timezone = "America/Toronto";
   let numberOfEvents = 0;
 
@@ -289,6 +290,8 @@ let main = function () {
           iCalContentLec.push(iCalContent);
         } else if (component === "TST") {
           iCalContentTst.push(iCalContent);
+        } else if (component === "SEM") {
+          iCalContentSem.push(iCalContent);
         }
         numberOfEvents++;
         //alert(numberOfEvents);
@@ -315,6 +318,7 @@ let main = function () {
       let fileNameTut = studentName + "-tut-schedule.ics";
       let fileNameLec = studentName + "-lec-schedule.ics";
       let fileNameTst = studentName + "-tst-schedule.ics";
+      let fileNameSem = studentName + "-sem-schedule.ics";
 
       let downloadLinks = [
         {
@@ -337,6 +341,11 @@ let main = function () {
           content: wrapICalContent(iCalContentTst.join("")),
           type: "Tst",
         },
+        {
+          name: fileNameSem,
+          content: wrapICalContent(iCalContentSem.join("")),
+          type: "Sem",
+        }
       ];
 
       downloadLinks.forEach((link) => {
